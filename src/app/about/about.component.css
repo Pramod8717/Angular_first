@@ -1,0 +1,28 @@
+.abt{
+    width: 100px;
+    height: 380px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 200px;
+    right: 480px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;   
+}
+h1{
+    text-align: center;
+}
+
+.btn{
+
+    height: 50px;
+    position: relative;
+    border: none;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+
+
+}
+

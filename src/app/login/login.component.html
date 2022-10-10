@@ -1,0 +1,32 @@
+<p>login works!</p>
+
+ <h1 *ngIf="show then ifBlock else elseBlock">
+  Gaurav
+</h1>
+
+<ng-template #ifBlock>
+  <h1>Swapnil
+    
+  </h1>
+</ng-template>
+
+
+<ng-template #elseBlock>
+  <h1>Neha</h1>
+</ng-template> 
+
+<h1 *ngFor="let product of productlist">
+{{product}}
+</h1>
+
+
+keyUp: <input type="text" #box (keyup)="getEvent(box.value)"><br><br>
+
+KeyDown: <input type="text" #box1 (keydown)="getEvent(box1.value)"><br><br>
+
+Blur: <input type="text" #box2 (blur)="getEvent(box2.value)"><br><br>
+
+Input: <input type="text" #box3 (input)="getEvent(box3.value)"><br><br>
+
+<button (click)="getEvent('button click event')">Next</button>
+

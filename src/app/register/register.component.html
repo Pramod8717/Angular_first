@@ -1,0 +1,71 @@
+<!-- <html>
+<body>
+    <form #basicForm="ngForm" (ngSubmit)="getData(basicForm.value)">
+<div class="form-controll">
+        <div class="reg">
+    <h1>Register Page</h1>
+    First Name :<input type="text" ngModel name="fname" placeholder="Enter Your First Name"><br>
+    Last Name : <input type="text" ngModel name="lname" placeholder="Enter Your Last Name"><br>
+    Email Id  : <input type="email" ngModel name="email" placeholder="Enter Your Email"><br>
+    Mobile No : <input type="number" ngModel name="mob" placeholder="Enter Your Mobile No"><br>
+    <button><a [routerLink] = "['/profile']"  fragment="profile">Submit</a></button>
+</div>
+</div>
+</form>
+</body>
+</html> -->
+
+
+
+<!-- <div [formGroup]="form">
+<div class="form-group">
+First Name : <input  type="text" class="form-control" id="fname" placeholder="Enter Your First Name" name="fname" formControlName="fname">
+</div>
+<div class="form-group">
+Last Name : <input  type="text" class="form-control" id="lname" placeholder="Enter Your Last Name" name="lname" formControlName="lname">
+</div>
+<div class="form-group">
+Email :<input  type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email" formControlName="email">
+    </div>
+    <div class="form-group">
+Mobile No :<input  type="text" class="form-control" id="Mob" placeholder="Enter Your Mobile No" name="Mob" formControlName="Mob">
+        </div>
+
+<button class="btn"(click)="saveCall()">Save</button>
+</div>
+ -->
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <form [formGroup]="form">
+        <div class="regform">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="main">
+
+            <div id="name">
+                <h2 class="name">Name :-</h2>
+                <input type="text" class="firstname" id="fname" placeholder="First Name" name="fname"
+                    formControlName="fname"><br>
+
+                <input type="text" class="lastname" id="lname" placeholder="Last Name" name="lname"
+                    formControlName="lname"><br>
+
+                <h2 class="name1">Email :-</h2>
+                <input type="text" class="email" id="email" placeholder="Enter Your Email" name="email"
+                    formControlName="email"><br>
+
+                <h2 class="name2">Mobile No :-</h2>
+                <input type="text" class="number" id="Mob" placeholder="Mobile No" name="Mob" formControlName="Mob"><br>
+            </div>
+            <button class="btn" (click)="saveCall()">Save</button>
+        </div>
+    </form>
+</body>
+
+</html>

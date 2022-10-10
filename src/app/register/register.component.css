@@ -1,0 +1,187 @@
+/* .reg{
+
+    color: black;
+    text-align: left;
+    display: flex; flex-direction: column;
+    padding: 1rem 0rem; 
+    width: 20%;
+    margin: 0.5rem 0.5rem;
+
+
+}
+
+.pro{
+
+    color: black;
+    text-align: right;
+    padding: 0.5rem 55rem; 
+    width: 10%;
+    margin: 0rem 0rem;
+
+} */
+
+/* .form-group{
+
+    color: black;
+    text-align: center;
+    display: flex; flex-direction: column;
+    padding: 1rem 20rem; 
+    width: 20%;
+    margin: 0.5rem 0.5rem;
+
+}
+
+.btn{
+
+    color: black;
+    text-align: right;
+    padding: 1rem 5rem; 
+    width: 50%;
+    margin: 5rem 10rem;
+
+} */
+
+
+body {
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+/* 
+.regform{
+
+    width: 650px;
+    background-color: #2885c4;
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    
+} */
+
+/* .main{
+
+    background-color: #3fa0e1;
+    width: 650px;
+    border-radius: 0px 0px 15px 15px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+} */
+
+form {
+    padding: 110px;
+}
+
+#name {
+
+    width: 100%;
+    height: 100px;
+}
+
+.name {
+    margin-left: -90px;
+    margin-top: -100px;
+    width: 125px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name1 {
+    margin-left: -90px;
+    margin-top: -40px;
+    width: 125px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name2 {
+    margin-left: -90px;
+    margin-top: 00px;
+    width: 125px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firstname {
+    position: relative;
+    left: 80px;
+    top: -30px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    border: none;
+}
+
+.lastname {
+
+    position: relative;
+    right: -350px;
+    top: -70px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    border: none;
+    color: #555;
+    
+}
+
+.email {
+
+    position: relative;
+    left: 80px;
+    top: -030px;
+    line-height: 40px;
+    width: 448px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    border: none;
+    color: #555;
+}
+
+.number {
+
+    position: relative;
+    right: -80px;
+    top: -30px;
+    ;
+    line-height: 40px;
+    width: 176px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    border: none;
+    color: #555;
+}
+
+.btn {
+    background-color: #a5f883;
+    position: relative;
+    right: -250px;
+    top: 150px;
+    ;
+    color: black;
+    padding: 12.8px 28.8px;
+    margin: 4px 0;
+    border: none;
+    width: 20%;
+    opacity: 0.9;
+}
+
+h1 {
+
+    position: relative;
+    top: -100px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 03%;
+    right: 15px;
+}

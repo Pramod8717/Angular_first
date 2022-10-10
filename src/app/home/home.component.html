@@ -1,0 +1,31 @@
+<html>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <div class="div3">
+                <h2>Add a bucket list items</h2>
+            </div>
+            <div class="div4">
+                <h2>Your Bucket List</h2>
+            </div>
+        </div>
+        <div class="div5">
+            <div class="div6">
+                <h3>Use this form below to add a new bucket list goal.What do you want to accomplish in your life ?</h3>
+                <div class="div7">
+                    <input type="text" #box placeholder="Life Goal.." name="name" />
+                </div>
+
+                <button (click)="getValue(box.value)">Add Items</button>
+
+            </div>
+            <div class="div8">
+                <div class="div9" *ngFor="let val of displayVal">
+                    <h3>{{val}}</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
